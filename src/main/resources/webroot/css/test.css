@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.main-canvas {
+    /* border: 1px dashed blueviolet; */
+    width: 200px;
+    height: 350px;
+}
+.social-wrapper {
+    opacity: 0.7;
+}
+
+.social-wrapper svg g path {
+    stroke: rgb(177, 177, 177) !important;
+}
+.social-wrapper svg g rect {
+    stroke: rgb(177, 177, 177) !important;
+}
+.social-wrapper svg g circle {
+    stroke: rgb(177, 177, 177) !important;
+}
+
+.socials-container {
+    padding: 4px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+}
